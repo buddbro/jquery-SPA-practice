@@ -1,8 +1,8 @@
-async function appendAvailableScreenings(movieTitle) {
-    let allScreenings = await getScreenings();
+async function appendAvailableScreenings() {
+    let movie = storage.selectedMovie;
     let screenings = {};
-    rawScreenings = allScreenings.filter(scr => scr.film === movieTitle).forEach(scr => screenings[scr.date] = screenings[scr.date] ? [...screenings[scr.date], {...scr}] : [{...scr}]);
-    
+    storage.screenings.filter(scr => scr.film === movie).forEach(scr => screenings[scr.date] = screenings[scr.date] ? [...screenings[scr.date], {...scr}] : [{...scr}]);
+
     let html = `<div>`
     for (const [key, value] of Object.entries(screenings)) {
         let innerHtml = "";
@@ -17,9 +17,9 @@ async function appendAvailableScreenings(movieTitle) {
 }
 
 function selectSeat(seatNr) {
-    selectedSeats.includes(seatNr) ? selectedSeats = selectedSeats.filter(nr => nr !== seatNr) : selectedSeats.push(seatNr)
+    storage.selectedSeats.includes(seatNr) ? storage.selectedSeats = storage.selectedSeats.filter(nr => nr !== seatNr) : storage.selectedSeats.push(seatNr)
     let html = "";
-    selectedSeats.forEach(seat => html = html + `<div>[${seat}]</div>`)
+    storage.selectedSeats.forEach(seat => html = html + `<div>[${seat}]</div>`)
     let btn = document.createElement(`button`)
     btn.onclick = bookSeats
     btn.innerHTML = "Book seats"
@@ -29,14 +29,14 @@ function selectSeat(seatNr) {
 
 
 async function appendAvailableSeats(title, time, room, date) {
-    screening = {title, time, room, date};
+    storage.selectedScreening = {title, time, room, date};
     let rooms = await getRooms();
-    let chosenRoom = rooms.filter(r => r.name === room)[0]
+    storage.selectedRoom = rooms.filter(r => r.name === room)[0]
     
     let html = `<div class="seats"><div>Selected seats: <div class="selectedSeats"></div></div>`
 
     let seatNr = 1;
-    chosenRoom.seatsPerRow.forEach(rowSize => {
+    storage.selectedRoom.seatsPerRow.forEach(rowSize => {
         html = html + `<div class="seatRow">`
         for(let i = 0; i < rowSize; i++) {
             html = html + `<div onclick="selectSeat('${seatNr}')">[${seatNr}]</div>`
@@ -49,6 +49,8 @@ html = html + `</div>`
 }
 
 function bookSeats() {
-    alert(`You booked ${selectedSeats.length} seats for ${screening.title} in ${screening.room} on ${screening.date} ${screening.time}`)
+    alert(`You booked ${storage.selectedSeats.length} seats for ${storage.selectedScreening.title} in ${storage.selectedScreening.room} on ${storage.selectedScreening.date} ${storage.selectedScreening.time}`)
+    let selectedSeats = storage.selectedSeats;
+    let screening = storage.selectedScreening;
     saveToDatabase({selectedSeats, ...screening});
 }

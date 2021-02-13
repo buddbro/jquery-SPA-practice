@@ -18,5 +18,9 @@ async function saveToDatabase(data) {
     let bookings = await getBookings();
     bookings.push(data);
 
+    storage.selectedSeats = [];
+    storage.selectedMovie = "";
+    storage.selectedScreening = {};
+    storage.selectedRoom = {};
     console.log("Saved to database", data);
 }

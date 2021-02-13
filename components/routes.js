@@ -6,7 +6,7 @@ const routes = {
         let html = `<div><h2>Movies</h2>`
 
         movies.forEach(movie => {
-            let url = `#detailedView?${movie.title}`
+            let url = `#detailedView?${encodeURI(movie.title)}`
             html = html + `<a href="${url}"><h3>${movie.title}</h3></a>`
         })
 
@@ -14,9 +14,9 @@ const routes = {
 
         return html
     },
-    "#detailedView": async (movieTitleInput) => {
-        let movies = await getMovies()
-        let movie = movies.filter(mov => mov.title === movieTitleInput.replace(/%20/g, " "))[0]
-        return `<div><h3>${movie.title}</h3><button onclick="appendAvailableScreenings('${movie.title}')">Screenings</button><div class="screenings"></div></div>`
+    "#detailedView": async () => {
+        let movie = storage.movies.filter(mov => mov.title === decodeURI(window.location.hash.split("?")[1]))[0]
+        storage.selectedMovie = movie.title;
+        return `<div><h3>${movie.title}</h3><button onclick="appendAvailableScreenings()">Screenings</button><div class="screenings"></div></div>`
     }
 }
