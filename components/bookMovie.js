@@ -53,5 +53,5 @@ html = html + `</div>`
 }
 
 function bookSeats() {
-console.log("Booked seats", {selectedSeats, screening});
+console.log("Booked seats", {selectedSeats, ...screening});
 }
