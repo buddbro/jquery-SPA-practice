@@ -1,0 +1,9 @@
+.seatRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.selectedSeats {
+  display: flex;
+  flex-direction: row;
+}

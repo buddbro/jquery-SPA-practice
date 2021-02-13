@@ -3,11 +3,13 @@ async function getMovies() {
 }
 
 async function getScreenings() {
-    let data = await $.getJSON("data/visningar.json");
-    console.log(data);
+    return await $.getJSON("data/visningar.json");
 }
 
 async function getRooms() {
-    let data = await $.getJSON("data/salonger.json");
-    console.log(data);
+    return await $.getJSON("data/salonger.json");
+}
+
+async function getBookings() {
+    return await $.getJSON("data/bookings.json");
 }

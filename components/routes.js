@@ -17,6 +17,6 @@ const routes = {
     "#detailedView": async (movieTitleInput) => {
         let movies = await getMovies()
         let movie = movies.filter(mov => mov.title === movieTitleInput.replace(/%20/g, " "))[0]
-        return `<div>${movie.title}</div>`
+        return `<div><h3>${movie.title}</h3><button onclick="appendAvailableScreenings('${movie.title}')">Screenings</button><div class="screenings"></div></div>`
     }
 }
