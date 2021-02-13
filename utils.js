@@ -14,6 +14,9 @@ async function getBookings() {
     return await $.getJSON("data/bookings.json");
 }
 
-function saveToDatabase(data) {
+async function saveToDatabase(data) {
+    let bookings = await getBookings();
+    bookings.push(data);
+
     console.log("Saved to database", data);
 }

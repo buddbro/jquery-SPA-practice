@@ -2,7 +2,6 @@ async function appendAvailableScreenings(movieTitle) {
     let allScreenings = await getScreenings();
     let screenings = {};
     rawScreenings = allScreenings.filter(scr => scr.film === movieTitle).forEach(scr => screenings[scr.date] = screenings[scr.date] ? [...screenings[scr.date], {...scr}] : [{...scr}]);
-    //console.log(screenings);
     
     let html = `<div>`
     for (const [key, value] of Object.entries(screenings)) {
