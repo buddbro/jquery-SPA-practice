@@ -1,0 +1,675 @@
+[
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-15",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-15",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-15",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-15",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-16",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-16",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-16",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-16",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-17",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-17",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-17",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-17",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-18",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-18",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-18",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-18",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-19",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Gladiator",
+    "date": "2021-03-19",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-19",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-19",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-20",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-20",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-20",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-20",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-21",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-21",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-21",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-21",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-22",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-22",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Gladiator",
+    "date": "2021-03-22",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-03-22",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-23",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-23",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-23",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-03-23",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Gladiator",
+    "date": "2021-03-24",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-24",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-24",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-24",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-25",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-03-25",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-25",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-25",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-26",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-26",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-26",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-03-26",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-27",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-27",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-27",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-27",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-28",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-28",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-28",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-28",
+    "time": "21.30"
+  },
+
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-29",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-29",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-29",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-29",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-30",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-30",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-30",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-03-30",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-03-31",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-31",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-31",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-31",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-04-01",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-04-01",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-01",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-04-01",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-04-02",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Gladiator",
+    "date": "2021-04-02",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-02",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-04-02",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-04-03",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-03",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-04-03",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-04-03",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-04",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-04-04",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-04-04",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-04-04",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-29",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-29",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Gladiator",
+    "date": "2021-03-29",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-03-29",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-30",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-30",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-30",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-03-30",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Gladiator",
+    "date": "2021-03-31",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Big Hero 6",
+    "date": "2021-03-31",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-03-31",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-03-31",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-04-01",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-04-01",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-01",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-04-01",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-04-02",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-04-02",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-02",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Braveheart",
+    "date": "2021-04-02",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Big Hero 6",
+    "date": "2021-04-03",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-03",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-04-03",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-04-03",
+    "time": "21.30"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "The Dark Knight",
+    "date": "2021-04-04",
+    "time": "18.00"
+  },
+  {
+    "biograf": "Stora salongen",
+    "film": "Gladiator",
+    "date": "2021-04-04",
+    "time": "18.30"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Braveheart",
+    "date": "2021-04-04",
+    "time": "21.00"
+  },
+  {
+    "biograf": "Lilla salongen",
+    "film": "Good Will Hunting",
+    "date": "2021-04-04",
+    "time": "21.30"
+  }
+]

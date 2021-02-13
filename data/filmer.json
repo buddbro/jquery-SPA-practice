@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Gladiator",
+    "productionCountries": [
+      "Malta",
+      "Marocko",
+      "Italien",
+      "USA",
+      "Storbritannien"
+    ],
+    "productionYear": 1999,
+    "length": 155,
+    "distributor": "Universal Pictures",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "director": "Ridley Scott",
+    "actors": [
+      "Russel Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed",
+      "Djimon Hounsou"
+    ],
+    "description": "En före detta romersk general får ett mål att utkräva hämnd mot den korrupta kejsaren som mördade hans familj och skickade honom till slaveri.",
+    "images": "images/gladiatorbild.jpg",
+    "youtubeTrailers": "https://www.youtube.com/embed/owK1qxDselE",
+    "reviews": [
+      {
+        "source": "GP",
+        "qoute": "Ett mästerverk",
+        "stars": 5,
+        "max": 5
+      },
+      {
+        "source": "Aftonbladet",
+        "qoute": "Ridley Scott gör det igen!",
+        "stars": 4.5,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "title": "Braveheart",
+    "productionCountries": [
+      "Skottland",
+      "Irland"
+    ],
+    "productionYear": 1994,
+    "length": 178,
+    "distributor": "Paramount Pictures",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "director": "Mel Gibson",
+    "actors": [
+      "Mel Gibson",
+      "James Robinson",
+      "Sean Lawlor",
+      "Sandy Nelson",
+      "James Cosmo"
+    ],
+    "description": "William Wallace är en skotsk rebel som leder ett uppror mot den grymma engelska kungen Edward Longshanks. Det blir en episk saga om hur William försöker vinna Skottlands frihet.",
+    "images": "images/braveheart.jpg",
+    "youtubeTrailers": "https://www.youtube.com/embed/1NJO0jxBtMo",
+    "reviews": [
+      {
+        "source": "Expressen",
+        "qoute": "En fängslande kamp",
+        "stars": 5,
+        "max": 5
+      },
+      {
+        "source": "Aftonbladet",
+        "qoute": "Mel Gibson är fantastisk!",
+        "stars": 4,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "title": "Good Will Hunting",
+    "productionCountries": [
+      "Kanada",
+      "USA"
+    ],
+    "productionYear": 1997,
+    "length": 126,
+    "distributor": "Miramax",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "director": "Gus Van Sant",
+    "actors": [
+      "Matt Damon",
+      "Robin Williams",
+      "Ben Affleck",
+      "Stellan Skarsgård",
+      "Casey Affleck"
+    ],
+    "description": "En rörande historia om en lite vilsen ung man som kämpar med att hitta sin plats i livet. Will Hunting är uppvuxen i slummen, spenderar kvällarna på barer med sina vänner. När Will är påväg att hämna i fängelse betalas borgen utav en professor på M.I.T som ger honom ett ultimatum att jobba med honom, och att träffa en terapeut som kommer förändra hans liv.",
+    "images": "images/goodwillhunting.png",
+    "youtubeTrailers": "https://www.youtube.com/embed/ReIJ1lbL-Q8",
+    "reviews": [
+      {
+        "source": "GP",
+        "qoute": "En feelgood film utan dess like",
+        "stars": 5,
+        "max": 5
+      },
+      {
+        "source": "Aftonbladet",
+        "qoute": "Robin Williams är ett geni bakom duken",
+        "stars": 4,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "title": "Big Hero 6",
+    "productionCountries": [
+      "USA",
+      "Japan"
+    ],
+    "productionYear": 2014,
+    "length": 102,
+    "distributor": "Walt Disney Pictures",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "director": "Don Hall & Chris Williams",
+    "actors": [
+      "Scott Adsit(voice)",
+      "Ryan Potter(voice)",
+      "Daniel Henney(voice)",
+      "Jamie Chung(voice)",
+      "T.J Miller(voice)"
+    ],
+    "description": "En animerad film om en annorlunda vänskap mellan ett ungt geni och en uppblåsbar robot. Tillsammans med andra vänner skapar dom en grupp high-tech hjältar.",
+    "images": "images/bighero6.jpg",
+    "youtubeTrailers": "https://www.youtube.com/embed/bT8qmoCgxZg",
+    "reviews": [
+      {
+        "source": "GP",
+        "qoute": "En väldigt rörande historia",
+        "stars": 4,
+        "max": 5
+      },
+      {
+        "source": "Expressen",
+        "qoute": "Inte ett öga torrt i biografen",
+        "stars": 4,
+        "max": 5
+      }
+    ]
+  },
+  {
+    "title": "The Dark Knight",
+    "productionCountries": [
+      "USA",
+      "Hong Kong",
+      "Storbritannien"
+    ],
+    "productionYear": 2007,
+    "length": 152,
+    "distributor": "Warner Bros",
+    "language": "Engelska",
+    "subtitles": "Svenska",
+    "director": "Christopher Nolan",
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Morgan Freeman"
+    ],
+    "description": "När en ny brottsling som kallar sig Jokern dyker upp i Gotham City, måste Bruce Wayne (Batman) göra allt i sin makt för att stoppa honom.",
+    "images": "images/thedarkknight.jpg",
+    "youtubeTrailers": "https://www.youtube.com/embed/kmJLuwP3MbY",
+    "reviews": [
+      {
+        "source": "GT",
+        "qoute": "Heath Ledger är ruskigt bra som Jokern",
+        "stars": 5,
+        "max": 5
+      },
+      {
+        "source": "Expressen",
+        "qoute": "Nervkittlande action, med en mörk ton över hela filmen",
+        "stars": 4,
+        "max": 5
+      }
+    ]
+  }
+]

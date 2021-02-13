@@ -1,11 +1,14 @@
-import routes from "components/routes.js"
+async function loadMainContent() {
+    window.onhashchange = async () => {
+        let route = window.location.hash.split("?")[0];
+        let movie = window.location.hash.split("?")[1];
+        page = await routes[route](movie);
 
-function loadMainContent() {
-    let page;
+        if(!page) {
+            page = routes["#error"]()
+        }
 
-    window.onhashchange = () => {
-        window.location.hash[]
-        page = routes[]
+        $(".app").html(page);
     }
 }
 
