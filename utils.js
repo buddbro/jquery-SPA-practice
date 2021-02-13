@@ -13,3 +13,7 @@ async function getRooms() {
 async function getBookings() {
     return await $.getJSON("data/bookings.json");
 }
+
+function saveToDatabase(data) {
+    console.log("Saved to database", data);
+}

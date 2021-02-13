@@ -1,6 +1,3 @@
-let selectedSeats = [];
-let screening = {};
-
 async function appendAvailableScreenings(movieTitle) {
     let allScreenings = await getScreenings();
     let screenings = {};
@@ -53,5 +50,6 @@ html = html + `</div>`
 }
 
 function bookSeats() {
-console.log("Booked seats", {selectedSeats, ...screening});
+    alert(`You booked ${selectedSeats.length} seats for ${screening.title} in ${screening.room} on ${screening.date} ${screening.time}`)
+    saveToDatabase({selectedSeats, ...screening});
 }

@@ -1,0 +1,2 @@
+let selectedSeats = [];
+let screening = {};
